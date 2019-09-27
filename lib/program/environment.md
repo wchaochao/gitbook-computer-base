@@ -14,35 +14,61 @@
 
 ## 操作系统
 
-屏蔽各种硬件的不同，提供统一的硬件接口
+管理计算机软件和硬件资源的控制程序
 
-* 内核：管理所有活动和驱动硬件
-* 系统调用层：提供一组的API供应用程序调用
+* 内核：管理软件活动和驱动硬件
+* 系统调用：提供给应用调用的API
 
-![操作系统](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/operate-system.png)
+### 发展
 
-### 常见
+操作系统的原型：监控程序
 
-* MS-DOS系列: Microsoft Disk Operating System
-* Windows系列
-* Mac系列
-* Unix系列
-* Linux系列
+![操作系统的原型](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/operate-system-prototype.png)
 
-### 虚拟机
+初期操作系统：监控程序 + 基本输入输出程序
 
-* 通过虚拟机安装其他操作系统
-* Java虚拟机：提供Java字节代码的运行环境
+![初期操作系统](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/operate-system-simple.png)
+
+现代操作系统：多个实用程序的几何体
+
+![现代操作系统](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/operate-system-current.png)
+
+### Windows操作系统
+
+* 32位或64位操作系统
+* 通过时钟分割技术实现多任务功能
+* 提供网络功能及数据库功能
+* GUI用户界面
+* 所见即所得实现打印输出
+* 即插即用实现设备驱动
+* 通过API函数集来提供系统调用
+
+### 其他操作系统
+
+可通过虚拟机安装其他操作系统
+
+* MS-DOS: Microsoft Disk Operating System
+* Mac
+* Unix
+* Linux
+
+### Java虚拟机
+
+提供Java字节代码的运行环境
 
 ![Java虚拟机](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/java-virtual-machine.png)
 
-## 应用程序
+### BIOS
 
-运行在操作系统之上的程序，对操作系统有依赖
+Basic Input/Output System，基本输入输出系统，预先内置在计算机ROM中的程序
 
-## BIOS
+* 开机自检程序：从CMOS中读写系统设置的具体信息，对硬件部分进行检测
+* 系统自启动程序：启动引导程序并由引导程序加载操作系统
+* 基本输入输出程序：进入BIOS界面进行操作
 
-Basic Input/Output System，存储在ROM中，预先内置在计算机内部的程序
+## 应用
 
-* 检查硬件是否运行正常
-* 启动引导程序，把操作系统加载到内存中运行
+* 运行在操作系统之上的程序
+* 通过系统调用使用操作系统的功能，间接控制硬件
+
+![应用程序](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/application.png)

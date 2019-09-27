@@ -7,6 +7,7 @@
 * [微型计算机](lib/compose/micro-computer.md)
 * [CPU](lib/compose/cpu.md)
 * [内存](lib/compose/memory.md)
+* [I/O](lib/compose/io.md)
 * [磁盘](lib/compose/disk.md)
 
 ### 数据篇
@@ -20,11 +21,12 @@
 
 * [运行环境](lib/program/environment.md)
 * [程序构建](lib/program/build.md)
+* [程序流程](lib/program/flow.md)
 
 ### 编程篇
 
 * [汇编语言](lib/code/assembly.md)
-* [程序流程](lib/code/flow.md)
+* [C语言](lib/code/c-language.md)
 * [算法](lib/code/algorithm.md)
 * [面向对象编程](lib/code/oop.md)
 
