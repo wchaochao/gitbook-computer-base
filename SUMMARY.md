@@ -30,13 +30,13 @@
 * [算法](lib/code/algorithm.md)
 * [面向对象编程](lib/code/oop.md)
 
-### 数据库篇
-
-* [数据库](lib/database/index.md)
-* [SQL](lib/database/sql.md)
-
 ### 网络篇
 
 * [网络](lib/network/index.md)
 * [加密](lib/network/encrypt.md)
 * [XML](lib/network/xml.md)
+
+### 数据库篇
+
+* [数据库](lib/database/index.md)
+* [SQL](lib/database/sql.md)

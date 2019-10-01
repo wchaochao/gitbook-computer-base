@@ -28,6 +28,9 @@ Direct Memory Access, 直接内存访问
 
 ![DMA](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/io-dma.png)
 
-## 显示器
+## 显卡
 
-显示器中显示
+* VRAM: Video RAM，存储显示器要显示的信息
+* GPU：Graphics Processing Unit, 图形处理器
+
+![显卡](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/io-graphics-card.png)
