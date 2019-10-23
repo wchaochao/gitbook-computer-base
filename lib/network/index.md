@@ -31,18 +31,18 @@
 
 ### MAC地址
 
-Media Access Control，网卡地址，网络硬件地址
+Media Access Control，硬件地址，烧录在网卡中，由48位二进制数组成
 
-* 被烧录在网卡的ROM中
-* 由制造厂商的编号和产品编号两部分组成，独一无二
+* 前24位：组织唯一标志符，用于区分厂家
+* 后24位：扩展标识符，用于区分同一厂家的网卡
 
 ![MAC地址](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/mac-address.png)
 
 ### IP地址
 
-网络软件地址，用于将网络内的计算机分组
+网络协议地址，用于将网络内的计算机分组
 
-* 由4段8bit组成，用`.`分隔，范围为0.0.0.0～255.255.255.255
+* 由32位二进制数组成，每8位一组，用十进制表示并用圆点分隔
 
 ![IP地址](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/ip-address.png)
 
