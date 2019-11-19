@@ -4,11 +4,12 @@
 
 ## 组成篇
 
-* [微型计算机](lib/compose/micro-computer.md)
+* [计算机](lib/compose/micro-computer.md)
 * [CPU](lib/compose/cpu.md)
 * [内存](lib/compose/memory.md)
 * [I/O](lib/compose/io.md)
 * [磁盘](lib/compose/disk.md)
+* [周边设备](lib/compose/peripherals.md)
 
 ### 数据篇
 

@@ -4,13 +4,9 @@
 
 ---
 
-用于存储指令和数据
+Random Access Memory，随机访问存储器，用于存储指令和数据
 
-## 种类
-
-* SRAM：Static Random Access Memory，静态随机存取内存，可读写，通电后数据可恒常保持，如CPU二级缓存
-* DRAM：Dynamic Random Access Memory，动态随机存取内存，可读写，需要周期性的充电以保持数据，如计算机内存
-* ROM：Read Only Memory，只读存储器，只读，断电后仍能保持数据，如BIOS
+* CPU能以任意顺序随机访问内存的不同位置
 
 ## 结构
 
@@ -20,6 +16,22 @@
 ### 指针
 
 表示存储着数据的内存地址，可对其中的数据进行读写
+
+### 引脚
+
+* 地址总线引脚：内存中的存储单元地址
+* 数据总线引脚：内存的读写数据
+* 控制引脚
+ * 激活引脚：在电路中激活内存，用于控制CPU的读写位置
+ * 读写操作引脚：读或写内存的数据
+
+## 硬件信息
+
+### 种类
+
+* SRAM：Static Random Access Memory，静态随机存取内存，可读写，通电后数据可恒常保持，如CPU二级缓存
+* DRAM：Dynamic Random Access Memory，动态随机存取内存，可读写，需要周期性的充电以保持数据，如计算机内存
+* ROM：Read Only Memory，只读存储器，只读，断电后仍能保持数据，如BIOS
 
 ## 存储
 
