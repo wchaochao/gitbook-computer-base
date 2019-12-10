@@ -10,10 +10,9 @@
 
 * 文本文件：存储文字
 * EXE文件：存储可执行程序
-* 图像文件：存储图像
- * BMP: bitmap，未压缩
- * JPEG：数码图像，不可逆压缩
- * gif: 256色
+* 图片文件：存储图片
+* 音频文件：存储音频
+* 视频文件：存储视频
 
 ## 压缩
 
@@ -29,7 +28,7 @@ Run Length Encoding，行程长度编码
 * 使用数据*重复次数的形式压缩文件
 * 经常被用于压缩传真的图像，不适合压缩数据不连续出现的文件，如文本文件
 
-![RLE算法](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/compress-REL.png)
+![RLE算法](https://raw.githubusercontent.com/wchaochao/images/master/gitbook-computer-base/compress-RLE.png)
 
 ### 哈夫曼算法
 
